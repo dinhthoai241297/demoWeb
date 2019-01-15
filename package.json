@@ -1,0 +1,48 @@
+{
+    "name": "backendnew",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel-node tools/build.js",
+        "start": "babel-node tools/distServer.js",
+        "startDev": "babel-node tools/SrcServer.js"
+    },
+    "author": "rem",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.0.0",
+        "@babel/core": "^7.0.1",
+        "@babel/node": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.2",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+        "css-loader": "^1.0.0",
+        "express": "^4.16.3",
+        "file-loader": "^2.0.0",
+        "open": "0.0.5",
+        "resolve-url-loader": "^3.0.0",
+        "style-loader": "^0.23.0",
+        "webpack": "^4.19.0",
+        "webpack-bundle-analyzer": "^3.0.3",
+        "webpack-dev-middleware": "^3.3.0",
+        "webpack-hot-middleware": "^2.24.0"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.0.0",
+        "crypto-js": "^3.1.9-1",
+        "md5": "^2.2.1",
+        "prop-types": "^15.6.2",
+        "react": "^16.5.1",
+        "react-dom": "^16.5.1",
+        "react-redux": "^6.0.0",
+        "react-router-dom": "^4.3.1",
+        "react-toastify": "^4.5.2",
+        "redux": "^4.0.1",
+        "redux-thunk": "^2.3.0",
+        "superagent": "^4.1.0"
+    }
+}
